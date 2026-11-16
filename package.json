@@ -1,0 +1,20 @@
+{
+  "name": "auth-server",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Paramesh-Kumar-2004/Auth-Server#readme",
+  "bugs": {
+    "url": "https://github.com/Paramesh-Kumar-2004/Auth-Server/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paramesh-Kumar-2004/Auth-Server.git"
+  },
+  "license": "ISC",
+  "author": "VP",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
