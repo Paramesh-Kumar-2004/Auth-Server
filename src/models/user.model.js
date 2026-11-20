@@ -43,7 +43,7 @@ const UserSchema = new mongoose.Schema({
     },
     role: {
         type: String,
-        enum: ["user", "creator", "manager", "admin", "superadmin"],
+        enum: ["user", "manager", "admin", "superadmin"],
         default: "user"
     },
     customUrls: [{
