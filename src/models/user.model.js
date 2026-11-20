@@ -41,15 +41,6 @@ const UserSchema = new mongoose.Schema({
         type: String,
         required: [true, "Phone Number Is Required"]
     },
-    playerName: {
-        type: String,
-        default: "Not Updated"
-    },
-    playerUID: {
-        type: String,
-        unique: true,
-        sparse: true
-    },
     role: {
         type: String,
         enum: ["user", "creator", "manager", "admin", "superadmin"],
