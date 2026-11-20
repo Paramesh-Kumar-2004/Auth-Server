@@ -56,9 +56,6 @@ const UserSchema = new mongoose.Schema({
             required: true
         },
     }],
-    paymentDetails: {
-        type: [String],
-    },
     isDeleted: {
         type: Boolean,
         default: false
