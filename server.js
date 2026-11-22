@@ -38,7 +38,7 @@ app.use("/public", express.static("public"))
 
 const allowedOrigins = [
     'http://localhost:5173',
-    'https://tournaments-client.vercel.app'
+    'http://localhost:5173',
 ];
 
 app.use(cors({
@@ -68,7 +68,7 @@ app.use("/api/v1/feedback", FeedbackRoutes)
 
 // Health Check
 app.get("/", (req, res) => {
-    res.status(200).send("Tournament Server Running...")
+    res.status(200).send("Auth Server Running...")
 })
 
 
