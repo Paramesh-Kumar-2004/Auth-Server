@@ -86,5 +86,5 @@ app.use(errorMiddleware)
 
 const PORT = process.env.PORT || 3000
 app.listen(PORT, () => {
-    console.log(`Tournament Server Started...`)
+    console.log(`Auth Server Started...`)
 })
