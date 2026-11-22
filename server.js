@@ -58,12 +58,6 @@ connectDB()
 
 // Routes
 app.use("/api/v1/auth", AuthRoutes)
-app.use("/api/v1/user", UserRoutes)
-app.use("/api/v1/tournament", TournamentRoutes)
-app.use("/api/v1/match", MatchRoutes)
-app.use("/api/v1/creators", CreatorsRoutes)
-app.use("/api/v1/payment", PaymentRoutes)
-app.use("/api/v1/feedback", FeedbackRoutes)
 
 
 // Health Check
