@@ -59,7 +59,7 @@ connectDB()
 // Routes
 app.use("/api/v1/auth", AuthRoutes)
 
-
+j
 // Health Check
 app.get("/", (req, res) => {
     res.status(200).send("Auth Server Running...")
